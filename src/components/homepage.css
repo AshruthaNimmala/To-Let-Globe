@@ -1,0 +1,94 @@
+/* Container Styling */
+.container {
+    padding: 4rem 1rem;
+    background-color: #ccdaef;
+}
+
+/* Card Styling */
+.card {
+    border: 2px solid #28a745;
+    border-radius: 16px;
+    background-color: #f2d4d4;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    padding: 2rem;
+}
+
+/* Card Title */
+.card-title {
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #1b5e20;
+    margin-bottom: 1.5rem;
+}
+
+/* Label Styling */
+.form-label {
+    font-weight: 600;
+    color: #333333;
+}
+
+/* Input & Textarea Styling */
+.form-control {
+    padding: 0.9rem 1rem;
+    border-radius: 10px;
+    border: 2px solid #d2d3d3;
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-control:focus {
+    border-color: #28a745;
+    box-shadow: 0 0 0 0.2rem rgba(40, 167, 69, 0.25);
+    outline: none;
+}
+
+/* Submit Button */
+.btn-success {
+    background-color: #28a745;
+    color: #e8e3e3;
+    border: none;
+    padding: 0.9rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    border-radius: 10px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+    background-color: #1e7e34;
+}
+
+/* Feedback Messages */
+.text-success {
+    color: #1b5e20;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+.text-danger {
+    color: #c62828;
+    font-size: 1rem;
+    font-weight: 600;
+    text-align: center;
+    margin-top: 1rem;
+}
+
+/* Responsive Fixes */
+@media (max-width: 768px) {
+    .card {
+        padding: 1.5rem;
+    }
+
+    .card-title {
+        font-size: 1.6rem;
+    }
+
+    .btn-success {
+        font-size: 1rem;
+    }
+}

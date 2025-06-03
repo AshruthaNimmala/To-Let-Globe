@@ -1,0 +1,122 @@
+/* General Container Styles */
+.contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #c2d9f0;
+    min-height: 100vh;
+}
+
+.contact-card {
+    background-color: #edcece;
+    border-radius: 12px;
+    box-shadow: 0 8px 16px rgba(159, 57, 57, 0.1);
+    padding: 30px;
+    max-width: 600px;
+    width: 100%;
+}
+
+.contact-title {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 25px;
+    color: #343a40;
+}
+
+/* Form Fields */
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px 12px;
+    font-size: 16px;
+    border: 1px solid #d1e3f5;
+    border-radius: 8px;
+    transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.form-control:focus {
+    outline: none;
+    border-color: #c8dced;
+    box-shadow: 0 0 8px rgba(102, 175, 233, 0.6);
+}
+
+/* Error Highlight */
+.is-invalid {
+    border-color: #dc3545;
+    background-color: #fff5f5;
+}
+
+/* Error & Success Messages */
+.error-message {
+    color: #dc3545;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.success-message {
+    color: #28a745;
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+/* Submit Button */
+.submit-btn,
+.btn-success {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: 500;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    width: 100%;
+}
+
+.submit-btn:hover,
+.btn-success:hover {
+    background-color: #218838;
+}
+
+.submit-btn:disabled,
+.btn-success:disabled {
+    background-color: #94d3a2;
+    cursor: not-allowed;
+}
+
+/* Homepage Contact Styles */
+.card {
+    border-radius: 12px;
+    border: none;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.08);
+}
+
+.card-title {
+    color: #343a40;
+}
+
+/* Responsive Enhancements */
+@media (max-width: 576px) {
+    .contact-card {
+        padding: 15px;
+    }
+
+    .contact-title {
+        font-size: 24px;
+    }
+
+    .form-control {
+        font-size: 20px;
+    }
+
+    .submit-btn {
+        font-size: 15px;
+        padding: 10px;
+    }
+}
